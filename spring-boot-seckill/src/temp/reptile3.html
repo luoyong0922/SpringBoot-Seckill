@@ -1,0 +1,1298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript" src="/ehibo/scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="/ehibo/scripts/jquery-ui.js"></script>
+<script type="text/javascript" src="/ehibo/scripts/jquery-migrate-1.1.1.js"></script>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" >
+	<title>AAFN-A&nbsp;AALN-A&nbsp;-&nbsp;Key Info</title>
+	<link rel="stylesheet" type="text/css" href="/ehibo/styles/BackOffice.css">
+    <script language="JavaScript" src="/ehealthinsurance/js/EHI_JavaScript.js"></script>
+    <script type="text/javascript" src="https://static.qa.ehealthinsurance.com/app/xis/js/utils.js"></script>
+    <script type="text/javascript" src="https://static.qa.ehealthinsurance.com/app/xis/js/ffmLogs.js"></script>
+    <script language="JavaScript" src="/ehibo/scripts/drug.js"></script>
+    <script type="text/javascript">
+        function addTimestampQueryStr(link) {
+            var t = new Date().getTime().toString().substr(8);
+            if (/t=\d{5}/.test(link.href)) {
+                link.href = link.href.replace(/t=\d{5}/, 't='+t);
+            } else {
+                if (/\/\?/.test(link.ref)) {
+                    link.href += ('&t='+t);
+                } else {
+                    link.href += ('?t='+t);
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+<table cellpadding="0" cellspacing="0" width="100%" name="topBanner" id="topBanner">
+	<tr>
+		<td colspan="2">
+            </td>
+		<td align="right" style="padding: 5px 0;color:#008dca"><font size="+1"></font>
+            <script type="text/javascript">
+        function changeRoleForBO() {
+            document.roleSwitching.action= $("#refresh_link").attr("href");
+            document.roleSwitching.submit();
+        }
+    </script>
+    <form action="" method="post"  name="roleSwitching" class="role-menu" ><label for="role-select"></label>
+        <select id="role-select" name="bo.current_principal" size="1" onChange= 'changeRoleForBO();' ><option value="royl-1542607776518"  selected="selected" >Super</option><option value="royl-1542607798143" >User Administrator</option><option value="royl-1543902520584" >XM Developer</option></select></form></td>
+	</tr>
+
+	<tr bgcolor="#81be41">
+	    <td style="height: 60px; padding: 0 0 0 30px; width: 215px;"><img src="/ehibo/images/new-logo.png"/></td>
+		<td style="padding-top: 20px;">
+   		<span style="padding: 10px;">
+       				<a href="?mcei.app.terminalID=__tid__1_" onclick="Open_WindowNamePositionSize('viewapp', 'IndividualAppDetails.ds?appId=15312974&mcei.app.terminalID=__tid__1_', 100, 0, 800, 710);return false;" ><img src="/ehibo/images/Inquiry.gif" border="0" alt="View Online App"></a></span>
+        			<span style="padding: 10px;">
+                <img src="/ehibo/images/medicare-quote.gif" border="0" alt="Quote Information">
+                        <a href="?mcei.app.terminalID=__tid__1_" onclick="Open_WindowPositionSize('/bov2/quoteplans.html?ehiBaseURL=https://www9.qa.ehealthinsurance.com&allid=EHM35770&appId=15312974&ppSaveSessionId='+getDrugByApp('15312974')+'&salerepid=royl-1542607776518&zip=10960&county=ROCKLAND&city=AAHOMECITYA&gd1=M&fname=AAFN-A&lname=AALN-A&smoker1=N&bdate1=01-01-1940&padate=&pbdate=&subcategory=boquote&mcei.app.terminalID=__tid__1_', 100, 0, 1000, 710);return false;" ><img src="/ehibo/images/medicare-mc.gif" border="0" alt="Medicare"></a><a href="?mcei.app.terminalID=__tid__1_" onclick="Open_WindowPositionSize('ITSBO.ds?SAMLDst=ehifo&TARGET=https://www.qa.ehealthinsurance.com/ehi/bo/bo-app-alliance-quote%3Fbo.appID=15312974&target.productLine=DT&allid=EHM35770&mcei.app.terminalID=__tid__1_', 100, 0, 1000, 710);return false;" ><img src="/ehibo/images/medicare-dt.gif" border="0" alt="Dental"></a><a href="?mcei.app.terminalID=__tid__1_" onclick="Open_WindowPositionSize('ITSBO.ds?SAMLDst=ehifo&TARGET=https://www.qa.ehealthinsurance.com/ehi/bo/bo-app-alliance-quote%3Fbo.appID=15312974&target.productLine=VSP&allid=EHM35770&mcei.app.terminalID=__tid__1_', 100, 0, 1000, 710);return false;" ><img src="/ehibo/images/medicare-vsp.gif" border="0" alt="Vision"></a></span>
+        <span style="padding: 10px;">
+       				<a href="?mcei.app.terminalID=__tid__1_" onclick="Open_WindowPositionSize('CarrierHelpGuideDisplayer.ds?bo.carrier_id=10125400&bo.productline_type=MA&bo.file_extension=ser&mcei.app.terminalID=__tid__1_', 100, 0, 800, 710);return false;" ><img src="/ehibo/images/HelpGuide.gif" border="0" alt="Carrier Help Guide"></a></span>
+        		<span style="padding: 10px">
+                <a href="?mcei.app.terminalID=__tid__1_" onclick="Open_WindowPositionSize('agentPortal/autoLogin?carrierId=10125400', 100, 0, 1024, 710); return false;" ><img src="/ehibo/images/AgentPortal.gif" border="0" alt="Auto Login Agent Portal"></img></a></span>
+            <span style="padding: 10px;">
+				<a href="DocAppScreen.ds?bo.appId=15312974&amp;bo.search.lName=&amp;bo.search.ssn=&amp;fromPE=false&mcei.app.terminalID=__tid__1_" ><img src="/ehibo/images/documents.gif" border="0" alt="Documents"/></a></span>
+		    </td>
+		<td align="right" style="padding-top: 20px;">
+			<a href="/bov2/index.html#/individualsearch" onmousedown="addTimestampQueryStr(this)"  onkeydown="window.event.keyCode===13 ? addTimestampQueryStr(this) : ''" ><img border="0" src="/ehibo/images/Search.png"/></a><a href="MainMenu.ds?mcei.app.terminalID=__tid__1_" ><img border="0" src="/ehibo/images/MainMenu.png"/></a><a href="Logout.ds?mcei.app.terminalID=__tid__1_" ><img border="0" src="/ehibo/images/Logout.png"/></a></td>
+	</tr>
+</table>
+<table border="0" width="95%">
+
+	<tr>
+
+	<td>
+			
+			royl-1542607776518</td>
+		<td>
+			
+			AAFN-A&nbspAALN-A</td>
+		<td>
+			
+			</td>
+		<td>
+			
+			1</td>
+		<td align="right"><a href="KeyInfo.ds?appID=15312974&bo.search.lName=&bo.search.ssn=&allianceID=&mcei.app.terminalID=__tid__1_" id="refresh_link" ></a></td>
+                    </tr>
+
+</table>
+<style type="text/css">
+.headerTrClass{
+    background:#ddd;
+}
+
+.trClass{
+    background:#f8f8f8;
+}
+
+.revMemCount{
+    border: 0;
+    background-color: transparent;
+}
+</style><link href="/calendar-static/css/dailog.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/ehibo/styles/com-log-detail.css">
+<link rel="stylesheet" type="text/css" href="/ehibo/styles/jquery.ui.datepicker.css">
+<link rel="stylesheet" type="text/css" href="/ehibo/styles/calendar.css">
+
+<script src="/calendar-static/js/Plugins/jquery.ifrmdailog.js" defer="defer" type="text/javascript"></script>
+<script src="/calendar-static/js/Plugins/Common.js" type="text/javascript"></script>
+<script src="/calendar-static/js/Plugins/jquery.form.js" type="text/javascript"></script>
+<script type="text/javascript" src="/ehibo/scripts/LoadAppLeadAppointment.js"></script>
+<script type="text/javascript" src="/ehibo/ckeditor/ckeditor.js"></script>
+<SCRIPT LANGUAGE="JavaScript" SRC="/ehibo/scripts/BOCommonScript.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="/ehibo/scripts/keyInfo.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="/ehibo/scripts/CiscoCAD.js"></SCRIPT>
+<script language="javascript">
+	var loader = new Image();
+	loader.src = "/ehibo/images/edit_disabled.gif";
+	loader.src = "/ehibo/images/send_disabled.gif";
+
+	function pressEdit(arg) {
+		arg.src = "/ehibo/images/edit_disabled.gif";
+		arg.disabled = true;
+		document.editForm1.submit();
+	}
+
+	function pressSendCanopy(arg) {
+		arg.src = "/ehibo/images/resend_Status_Data_disabled.gif";
+		arg.disabled = true;
+		document.sendForm.submit();
+	}
+
+	function pressSend(arg) {
+		arg.src = "/ehibo/images/send_disabled.gif";
+		arg.disabled = true;
+		document.sendForm.submit();
+	}
+
+	function redirect(url) {
+    	window.location.href=url;
+    }
+
+	function redirectWithReturnURL(url) {
+		url = url + "&returnURL=" + getReturnUrl(15312974,'App');
+    	window.location.href=url;
+    }
+	$(function(){
+		showEnrollMessage();
+		
+        var objs = $("span[name='planName']");
+        for (var i = 0; i < objs.length; i++) {
+            var str = objs[i].innerHTML;
+            if (str.indexOf("&lt;sup&gt;") != -1 && str.indexOf("&lt;/sup&gt;") != -1) {
+                str = str.replace("&lt;sup&gt;", "<sup>").replace("&lt;/sup&gt;", "</sup>");
+                objs[i].innerHTML = str;
+            }
+        }
+        getCalabrioUrl(15312974);
+	});
+	function showEnrollMessage() {
+		var showEnrollSuccessMessage = "null";
+		if(showEnrollSuccessMessage == "Y"){
+			alert("CONGRATULATIONS, THE ENROLLMENT WAS COMPLETED!");
+		}
+	    var validationError = "null";
+		if(validationError == "T"){
+			alert("There was a problem with the enrollment data. The enrollment team has been notified and will resolve the issue.");
+		}
+	}
+</script>
+<script language="javascript">
+
+function openReviewForm(appId, customerCare){
+	
+	var url = '/ifp-client/qhp-enrollment.html?appId=' + appId;
+    
+	$.ShowIfrmDailog(url,{
+	    		width: 800,
+				height: $(window).height() - 100,
+				caption: 'Review Form',
+				enabledrag: true
+	});
+	$('.bbit-window-plain').css({
+	    top: 40
+	});
+}
+
+    function openWBEDetails(appId) {
+        $.ShowIfrmDailog('/ehi/bo/showWBEDetails?appId=' + appId, {
+            width: 800,
+            height: $(window).height() - 100,
+            caption: 'WBE Details',
+            enabledrag: true
+        });
+        $('.bbit-window').css({
+       	    top: 60
+       	});
+    }
+    
+
+    function getFFMEnrollmentStatus() {
+        $.ajax({
+            url: "/ehi/bo/getFFMEnrollmentStatus",
+            type: "GET",
+            cache: false,
+            success: function (data) {
+                if (data == "OK")
+                    $("#ffmEnrollmentStatus").html("<img border='0' src='/ehibo/images/StatusOk.png' title='FFM Enrollment is OK & Working'/>");
+                else
+                    $("#ffmEnrollmentStatus").html("<img border='0' src='/ehibo/images/StatusDown.png' title='FFM Enrollment is Down'/>");
+            },
+            error: function () {
+                $("#ffmEnrollmentStatus").html("<img border='0' src='/ehibo/images/StatusDown.png' title='FFM Enrollment is Down'/>");
+            }
+        });
+    }
+
+    function getFFMSubsidyStatus() {
+        $.ajax({
+            url: "/ehi/bo/getFFMSubsidyStatus",
+            type: "GET",
+            cache: false,
+            success: function (data) {
+                if (data == "OK")
+                    $("#ffmSubsidyStatus").html("<img border='0' src='/ehibo/images/StatusOk.png' title='FFM Subsidy is OK & Working'/>");
+                else
+                    $("#ffmSubsidyStatus").html("<img border='0' src='/ehibo/images/StatusDown.png' title='FFM Subsidy is Down'/>");
+            },
+            error: function () {
+                $("#ffmSubsidyStatus").html("<img border='0' src='/ehibo/images/StatusDown.png' title='FFM Subsidy is Down'/>");
+            }
+        });
+    }
+
+    function iFrameHeight() {
+        var ifm= document.getElementById("CrossSellFrame");
+        var subWeb = document.frames ? document.frames["CrossSellFrame"].document : ifm.contentDocument;
+        if(ifm != null && subWeb != null) {
+        ifm.height = subWeb.body.scrollHeight;
+        }
+    }
+
+</script>
+<body style="position: absolute;left: 0; z-index: -999;width: 100%;" class="key-info-page med">
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<script language="javascript">
+function confirmMessage() {
+	var urgency = document.formAttachment["bo.urgency"].value;
+	var returnValue = confirm("Please confirm that you notified the customer of this " + urgency.toLowerCase()+ " message.");
+	if(returnValue == true)	{
+		document.formAttachment.submit();
+	}
+}
+</script>
+<script language="JavaScript" src="/ehealthinsurance/js/EHI_JavaScript.js"></script>
+<SCRIPT LANGUAGE="JavaScript" SRC="/ehibo/scripts/BOCommonScript.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="/ehibo/scripts/ComLog.js"></SCRIPT>
+<script type="text/javascript" src="/ehibo/scripts/com-log-detail.js"></script>
+<script type="text/javascript" src="/ehibo/scripts/ehi-ajax.js"></script>
+<script LANGUAGE="JavaScript" SRC="/ehibo/scripts/UnderwritingDetails.js"></script>
+<script type="text/javascript">
+		    $(document).ready(function(){
+		    	loadAppointment("App",15312974,$("#appointment_block"));
+		        });
+		</script>
+	<table width="100%">
+	<tr>
+		<td align="left">
+		<table width="250" border=0 cellpadding="0" cellspacing="0">
+			<tr>
+			  <td rowspan="2">
+                   <a href="?mcei.app.terminalID=__tid__1_" onclick="window.open('/ehi/bo/cross-sell-dash-board?applicationId=15312974&email=anonymous891928292535158321@ehealth.com&allianceId=EHM35770&allianceIdInDB=EHM35770&zipCode=10960&state=NY&county=ROCKLAND&medicareAppFlag=Y&mcei.app.terminalID=__tid__1_', 'CrossSell', 'left=100, top=200, width=1000, height=700, scrollbars=yes, resizable=yes, toolbar=no, maximizeButton=false, location=no, directories=no, menubar=no');return false;" ><img src="/ehibo/images/Money.gif" border="0" alt=""></a></td>
+				<td height="22" valign=middle nowrap>
+					
+				</td>
+				</tr>
+			<tr>
+				<td valign=top nowrap>
+					
+						
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</td>
+			</tr>
+		</table>
+		</td>
+		<td align="right">
+		<button style="font-size:8px;" name="MembersLink" type="button" onclick="scrollToLocation('MembersTable')">Members</button>
+
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="font-size:8px;" name="PoliciesLink" type="button" onclick="scrollToLocation('PoliciesTable')">Policies</button>
+	
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="font-size:8px;" name="TicketLink" type="button" onclick="scrollToLocation('ServiceTicketTable')">Service Ticket</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="font-size:8px;" name="TrackingLink" type="button" onclick="scrollToLocation('TrackingTable')">Tracking</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="font-size:8px;" name="WorkQueueLink" type="button" onclick="scrollToLocation('WorkQueueTable')">Work Queue</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="font-size:8px;" name="ComLogLink" type="button" onclick="scrollToLocation('ComLogTable')">Com Log</button>
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="font-size:8px;" name="OutgoingMessageLink" type="button" onclick="scrollToLocation('OutgoingMessageTable')">Outgoing Message</button>
+			</td>
+	</tr>
+</table>
+<center>
+
+    
+</center>
+
+
+<table width="95%">
+	<tr>
+		<td>
+			<form action="KeyInfoEdit.ds?bo.KeyInfoEditMode=edit" method="post"  name="editForm1" ><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="ehi._bid" value=""  /><input type="hidden" name="bo.search.lName" value=""  /><input type="hidden" name="bo.search.ssn" value=""  /><input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><input type="hidden" name="mcei.db.fromPE" value=""  /><input type="hidden" name="bo.statusBeforeEdit" value="R1"  /><INPUT TYPE="image" onClick="pressEdit(this)" name="editButton" SRC="/ehibo/images/editBlue.gif" BORDER="0"  VALUE="Save">
+					</form></td>
+		<td id="isMedicareApp"></td>
+			<!--display this button when there are other application-->
+</tr>
+</table>
+<table cellspacing="2" cellpadding="4" width="95%" id="innerAppInfoTable" name="innerAppInfoTable">
+	<tr>
+		<th COLSPAN="9" align="left">
+				Applicant Information
+		</th>
+	</tr>
+	<tr class="trClass" valign="top" >
+		<td colspan="9" align="center">
+			<table width=100%>
+			<tr>
+				<td align="left">
+				<font color="green"><b>This user is currently Active.</b></font>
+					</td>
+				<td align="right">
+					</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+  <tr class="trClass" valign="top">
+		<td>
+		 
+
+ 		 		<br>
+                 001&nbsp;
+                     001-0001</td>
+		<td>
+		 
+
+		 		<br>
+               002&nbsp;
+                  002-0002</td>
+		<td>
+			
+
+			<br>
+                </td>
+		<td>
+			<br>
+               &nbsp;
+		</td>
+		<td>
+			<br>
+			
+					Active
+				</td>
+		<td id="app_status_15312974">
+			
+			<br>
+			Sent to Carrier
+			&nbsp;
+		</td>
+        <td colspan="2" width="132px">
+            
+                <br>
+                <input type="button" value="eLead" onclick='redirect("/bose/screen_pop.html#/?scriptID=2&appID=15312974&mcei.app.terminalID=__tid__1_");' />
+                <input type="button" value="Age-In" onclick='redirect("/bose/screen_pop.html#/?scriptID=3&appID=15312974&mcei.app.terminalID=__tid__1_");' />
+                &nbsp;
+            </td>
+		<td>
+					
+					<br>
+					<input type="button" value="Welcome / Ancillary" onclick='redirectWithReturnURL("mc/bo-script?method=initiate&scriptId=6&id=15312974&type=App&mcei.app.terminalID=__tid__1_")' />
+                    </td>
+			</tr>
+	<tr class="trClass" valign="top">
+		<td>
+			<br>AAHOMESTREETA&nbsp;
+		</td>
+		<td>
+			
+			<br>&nbsp;
+		</td>
+		<td>
+			
+			<br>AAHOMECITYA&nbsp;
+		</td>
+		<td>
+			
+			<br>NY&nbsp;
+		</td>
+		<td>
+			
+			<br>10960&nbsp;
+		</td>
+		<td>
+			
+			<br>ROCKLAND&nbsp;
+		</td>
+		<td colspan="3">
+			
+			<br>anonymous891928292535158321@ehealth.com&nbsp;
+		</td>
+	</tr>
+	<tr class="trClass" valign="top">
+		<td>
+			
+			<br>AAMAILSTREETA&nbsp;
+		</td>
+		<td>
+			
+			<br>&nbsp;
+		</td>
+		<td>
+			
+			<br>AAMAILCITYA&nbsp;
+		</td>
+		<td>
+			
+			<br>AK&nbsp;
+		</td>
+		<td>
+			
+			<br>10001&nbsp;
+		</td>
+		<td>
+			
+			<br>
+			
+					Remove / Unsubscribe
+				</td>
+		<td>
+		<font color="#9900FF"></font>
+		    <br>116e9a84e21</td>
+		<td colspan="2">
+		    
+            <br>2612-2523</td>
+		</tr>
+
+    <tr class="trClass" valign="top">
+		<td>
+			
+			<br>01-01-2019&nbsp;
+		</td>
+		<td>
+			
+			<br>12-31-2018</td>
+		<td>
+			<br>
+	   		
+                   E-signed
+             	</td>
+
+        <td>
+		    <br>
+				
+					    Online
+					</td>
+	  <td>
+         
+          <br>EHM Default Alliance&nbsp;
+	         <input type="hidden" name="mcei.db.ALLIANCE_INFORMATION.ALLIANCE_ID" value="EHM35770"  /></td>
+      <td colspan="2">
+        
+            <br>&nbsp;
+            </td>
+      <td colspan="2"></td>
+  </tr>
+  <tr class="trClass" valign="top">
+    <td>
+	   <br>
+	  
+	  		$60.00
+      &nbsp;(M)
+	</td>
+<td>
+			<br>
+			</td>
+		<td>
+			
+			<br>&nbsp;
+		</td>
+<td colspan=2>
+  
+			<br>&nbsp;
+		</td>
+		<td>
+			
+			<br>12-05-2018&nbsp;
+		</td>
+        <td>
+            
+            <br>&nbsp;
+        </td>
+      <td colspan="2">
+       
+            <br>
+           
+                   No&nbsp;
+               <a href="?mcei.app.terminalID=__tid__1_" onclick="window.open('/ehi/bo/text-opt-in?appId=15312974&userProfileId=25232612&smsOption=&textMobile=&lName=&ssn=&allianceID=&terminalID=__tid__1_', 'textOptIn', 'left=100, top=200, width=790, height=500, scrollbars=yes, resizable=yes, toolbar=no, maximizeButton=false, location=no, directories=no, menubar=no');return false;" >(Edit)</a></td>
+
+      </tr>
+  <tr class="trClass" valign="top">
+		<td>
+			
+			<br><input type="hidden" name="mcei.db.PAYMENT_SOURCE.INITIAL_PAYMENT_MODE" value="CHECK"  />Check</td>
+		<td>
+			
+			<br><input type="hidden" name="mcei.db.PAYMENT_SOURCE.INITIAL_PAYMENT_FREQUENCY" value="M"  />Monthly</td>
+		<td>
+			
+			<br>
+			</td>
+		<td>
+			
+			<br><input type="hidden" name="mcei.db.PAYMENT_SOURCE.MODE_OF_PAYMENT" value="BILL"  />Direct Bill</td>
+		<td>
+			
+			<br>
+			</td>
+		<td colspan="4">
+			<table width="100%" border="0" cellspacing="0" cellpadding="2">
+              <tr>
+                <td>
+                    
+                </td>
+                <td></td>
+</tr>
+              <tr>
+<td></td>
+                <td></td>
+  </tr>
+            </table>
+		</td>
+  </tr>
+  <tr class="trClass" valign="top">
+		<td>
+			
+			<br></td>
+		<td>
+			
+			<br></td>
+		<td>
+			
+			<br>Rate Summary Page</td>
+		<td>
+			
+			<br>Xuejing Chen (Medicare Enrollment)</td>
+  <td>
+            <br/>
+            </td>
+        <td>
+            
+            <br>
+             </td>
+	<td>
+      <br/>
+      INC</td>
+    <td>
+                <br>
+              </td>
+    </tr>
+    <tr class="trClass" valign="top">
+		<td>
+			
+			<!--only display for the lead has converted (passed 'L2')-->
+			</td>
+        <td>
+          <br>
+          </td>
+        <!--TCPA Consent-->
+        <td>
+           
+           <br>
+                <!--TCPA Consent Yes/No-->
+                
+                        No
+                      <a href="?mcei.app.terminalID=__tid__1_" onclick="window.open('/ehi/bo/tcpa-opt-in?applicationId=15312974&userProfileId=25232612&mobilePhone=&lName=&ssn=&allianceID=&terminalID=__tid__1_', 'tcpaOptin', 'left=100, top=200, width=790, height=500, scrollbars=yes, resizable=yes, toolbar=no, maximizeButton=false, location=no, directories=no, menubar=no');return false;" >(TCPA Opt-in)</a></td>
+      <td>
+			
+			<br>
+			123456789A</td>
+		<td>
+			
+			<br>
+			</td>
+		<td>
+			
+			<br>
+			</td>
+        <td colspan="2">
+            
+            <br>
+            </td>
+        <td colspan="2">
+            
+            <br/>
+            <div id="calabrio-recording" style="display:none;">
+                <a href="javascript:void(0)" id="calabrio-audio-recording" target="_blank">Audio</a> |
+                <a href="javascript:void(0)" id="calabrio-video-recording" target="_blank">Video</a>
+            </div>
+        </td>
+	    </tr>
+</table>
+<hr>
+
+<!-- used by onAddSpouse and onAddChild -->
+
+
+
+<table width="100%" id="MembersTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+<table cellspacing="2" cellpadding="4" width="95%" id="innerMembersTable" name="innerMembersTable">
+   <tr>
+		<th COLSPAN="10" align="left">Members</th>
+
+	</tr>
+	<tr class="headerTrClass">
+		<td>#</td>
+		<td></td>
+		<td>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	  	<!-- PPS shows Member Number -->
+	    </tr>
+<!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <tr bgcolor="#F0F0F0"  ><td>1</td>
+		<td>Self(Male)</td>
+		<td>AAFN-A&nbsp;AALN-A&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>01-01-1940&nbsp;</td>
+		<td>79&nbsp;</td>
+		<td>
+        	
+        			No
+        		</td>
+		<td>
+	    </td>
+		<td></td>
+	  	<!-- PPS shows Member Number -->
+	    </tr><!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    <!-- Only process if relationship exists and relationship != NotIncluded-->
+    <!-- Remove the member display limitation per issue #FSIS-1416 -->
+    </table>
+
+<!--end of displaying application plans table-->
+
+<hr>
+<table width="100%" id="PoliciesTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+<table cellspacing="2" cellpadding="4" width="95%" id="innerPoliciesTable" name="innerPoliciesTable">
+   <tr>
+	    <th COLSPAN="12" align="left">
+            <span class="has-badge">
+                Policies for
+                AAFN-AAALN-A</span>
+            </th>
+	</tr>
+	<tr class="trClass">
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" colspan="2">
+			
+
+		</td>
+		<td align="center" valign="top" rowspan="2"></td>
+		<td align="center" valign="top" rowspan="2"></td>
+	</tr>
+	<tr class="trClass">
+		<td align="center" valign="top"></td>
+		<td align="center" valign="top"></td>
+	</tr>
+<tr bgcolor="#F0F0F0"  ><td>
+		MA-PD</td>
+		<td>
+		Empire BlueCross&nbsp;-&nbsp;
+		<span name="planName">Empire MediBlue Plus (HMO)</span>;&nbsp;&nbsp;
+				ded:$325.00 /&nbsp;
+				office visit: Not Covered /&nbsp;
+				coins:%<br>
+			<font size="1">
+			<a href="MedicarePlanBenefitsBO.ds?bo.appId=15312974&bo.carrierId=10125400&bo.planId=662&bo.county=ROCKLAND&bo.CATEGORY=HMO (MAPD)&mcei.app.terminalID=__tid__1_" target="_blank" >Plan Details</a>
+				&nbsp; &nbsp;
+<!-- find doctor link -->
+                <a href="https://www.qa.ehealthmedicareplans.com/ehi/provider-search/search?mode=standard&carrierid=10125400&plantype=HMO (MAPD)&network=EMPIRE MEDIBLUE PLUS (HMO)&planId=662&planname=Empire MediBlue Plus (HMO)&zipcode=10960&logourl=/ehealthinsurance/CarrierProfile/littlelogos/EmpireNYBC.gif&planurl=Y&src=QLC"
+                                                 target="_blank"
+                                                 ONCLICK='Open_WindowSize("https://www.qa.ehealthmedicareplans.com/ehi/provider-search/search?mode=standard&carrierid=10125400&plantype=HMO (MAPD)&network=EMPIRE MEDIBLUE PLUS (HMO)&planId=662&planname=Empire MediBlue Plus (HMO)&zipcode=10960&logourl=/ehealthinsurance/CarrierProfile/littlelogos/EmpireNYBC.gif&planurl=Y&src=QLC",700,6555);return false;'>Directory</a>
+                                            
+			&nbsp; &nbsp;
+<!--// find doctor link -->
+<!-- Drug Coverage Tool link -->
+                <!--// Drug Coverage Tool link -->
+			</font>
+		</td>
+		<td>01-01-2019</td>
+		<td>12-31-2019</td>
+		<td>
+		Monthly</td>
+		<td>
+			$60.00</td>
+		<td>1</td>
+		<td></td>
+		<td> 1</td>
+		<td align="center">1</td>
+		<td>01-01-2019</td>
+		<td></td>
+	</tr></table>
+
+<br>
+	<!--end of displaying policy table-->
+<!-- displaying the add offline plan block -->
+<input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="ehi._bid" value=""  /><SCRIPT LANGUAGE="JavaScript" SRC="/ehibo/scripts/OfflineCarrier.js"></SCRIPT>
+
+<script type="text/javascript">
+
+function checkAction(form){
+	var appId = form["bo.appId"].value;
+	if(appId!=''){
+		form.action="KeyInfoView.ds";
+		form["mcei.html.screen"] = "KeyInfoView";
+	}
+	alert(form.action);
+	alert(form["mcei.html.screen"]);
+}
+</script>
+<!-- Add Offline Plan Selection (Add Offline application) -->
+<form action="KeyInfo.ds" method="post"  name="addAppForm" onsubmit="checkAction(this)" class="leadOfflineForm" ><input type="hidden" name="bo.form" value="addAppForm"  /><input type="hidden" name="mcei.html.screen" value="KeyInfo"  /><input type="hidden" name="bo.onlyPopOfflineSelections" value=""  /><input type="hidden" name="bo.username" value="royl-1542607776518"  /><input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.app.state" value="NY"  /><input type="hidden" name="bo.leadID" value=""  /><input type="hidden" name="bo.lead.state" value=""  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><input type="hidden" name="bo.form_version" value=""  /><input type="hidden" name="bo.KeyInfoMode" value=""  /><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="ehi._bid" value=""  /><select id="" name="bo.offline_product_line" size="1"  onchange="addAppForm['bo.onlyPopOfflineSelections'].value='Y'; addAppForm.submit();"  ><option value="" >Select a Product Line</option><option value="MA" >Medicare Advantage</option><option value="MD" >Medicare Part D</option><option value="MS" >Medicare Supplement</option><option value="MA-PD" >MA-PD</option></select><select id="" name="bo.offline_carrier_id" size="1"  onchange="addAppForm['bo.onlyPopOfflineSelections'].value='Y'; addAppForm.submit();"  ><option value="" >Select a Carrier</option></select><select id="" name="bo.offline_plan_id" size="1"  onchange=""  ><option value="" >Select a Plan Name</option></select><select id="" name="bo.started_by_service" size="1"  onchange=""  ><option value="" >Select a Submission Method</option><option value="TELE" >Telephonic</option><option value="ONLINE" >Online</option></select><input type="button" onClick="confirmAddOfflinePlan();" name="create" value="Create New Application">
+	     </form><!--display this table when there are other application-->
+<HR>
+<table width="100%" id="ServiceTicketTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+<TABLE cellPadding=4 cellSpacing=2 width="95%" id="innerServiceTicketTable" name="innerServiceTicketTable">
+  <TBODY>
+  <TR>
+    <TH colSpan=10 align=left>Service Tickets</TH></TR>
+
+    <tr class="headerTrClass">
+      <td align=center><nobr></nobr></td>
+	  	<td></td>
+	  	<td><nobr></nobr></td>
+      <td></td>
+      <td></td>
+			<td></td>
+      <td></td>
+	  	<td></td>
+	  	<td></td>
+	  	<td></td>
+		</tr>
+	<tr><td colspan=8><a href="ServiceTicketNew.ds?bo.appId=15312974&mcei.app.terminalID=__tid__1_" >Create New Ticket</a></td></tr>
+   </TBODY>
+</TABLE>
+
+<hr>
+<table width="100%" id="WorkQueueTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+<form action="KeyInfo.ds" method="post" ><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="ehi._bid" value=""  /><input type="hidden" name="ScreenID" value="WorkQueue"/>
+<input type="hidden" name="loginclerkid" value="royl-1542607776518"/>
+<input type="hidden" name="mcei.html.screen" value="WorkQueueEdit"  /><input type="hidden" name="mcei.html.source" value="KeyInfo"  /><input type="hidden" name="mcei.db.WORK_QUEUE.WORK_QUEUE_ID" value=""  /><input type="hidden" name="mcei.db.WORK_QUEUE.APPLICATION_ID" value="15312974"  /><input type="hidden" name="mcei.db.WORK_QUEUE.GROUP_ID" value=""  /><input type="hidden" name="mcei.db.WORK_QUEUE.TASK_STATUS" value="I"  /><input type="hidden" name="bo.wquser" value=""  /><input type="hidden" name="ehi.rule" value="BO_WorkQueueEdit"  /><input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><input type="hidden" name="bo.KeyInfoEditMode" value=""  /><input type="hidden" name="mcei.db.fromPE" value=""  /><input type="hidden" name="bo.keyinfoedit.action" value="WorkQSave"  /><table cellspacing="2" cellpadding="4" width="95%" id="innerWorkQueueTable" name="innerWorkQueueTable">
+	<tr>
+		<th COLSPAN="3" align="left">
+				Add A Work Queue Action Item
+		</th>
+	</tr>
+    <tr class="trClass">
+		<td valign="top">
+			
+			<br/>
+			<select id="" name="mcei.db.WORK_QUEUE.CATEGORY" size="1"  ><option value="Application Problem" >Application Problem</option><option value="Approval Follow-Up" >Approval Follow-Up</option><option value="Alternative Coverage" >Alternative Coverage</option><option value="Audit" >Audit</option><option value="Carrier Extranet Note" >Carrier Extranet Note</option><option value="Customer Call Back" >Customer Call Back</option><option value="Customer Document" >Customer Document</option><option value="Effective Date Change" >Effective Date Change</option><option value="Enrollment Research" >Enrollment Research</option><option value="Form Follow-Up" >Form Follow-Up</option><option value="Hot Lead" >Hot Lead</option><option value="New EPI Rate Quote" >New EPI Rate Quote</option><option value="New Paper Rate Quote" >New Paper Rate Quote</option><option value="Personal Reminder"  selected="selected" >Personal Reminder</option><option value="Request To Cancel/Withdraw" >Request To Cancel/Withdraw</option><option value="Sales Research" >Sales Research</option><option value="Status Follow-Up" >Status Follow-Up</option><option value="Supervisor Assigned" >Supervisor Assigned</option><option value="Underwriting Follow-Up" >Underwriting Follow-Up</option><option value="Warm Lead" >Warm Lead</option><option value="Delinquent" >Delinquent</option><option value="Renewal" >Renewal</option><option value="Termination" >Termination</option><option value="QLE Expiration Date Trigger" >QLE Expiration Date Trigger</option><option value="XM Assigned" >XM Assigned</option></select><br/>
+
+            <br/>mm - dd - yyyy
+            <br/><input type="text" name="mcei.db.WORK_QUEUE.TASK_DATE" value="12-05-2018" size="10" maxlength="10"  /><br/><br/><br/>
+            <select id="" name="mcei.db.WORK_QUEUE.ASSOCIATE_ID" size="1"  ><option value="xuejingc-1454654103749" >Assigned Enrollment Rep</option><option value="EU" >An External User</option><option value="abbyw-1441868769627" >Abby Wu (Medicare Sales)</option><option value="abbyw-1478593243030" >Abby Wu (Super)</option><option value="atrivedi-1533762107672" >Advait Trivedi (Administrator)</option><option value="alanh-1458617629509" >Alan Hu (Administrator)</option><option value="alanh-1485050430933" >Alan Hu (Customer Retention)</option><option value="alanh-1480921138425" >Alan Hu (Medicare Sales)</option><option value="alexeiadmin" >Alexei Barnes (Administrator)</option><option value="alexeimedsales" >Alexei Barnes (Medicare Sales)</option><option value="Adminjude" >Alfred Jude (Administrator)</option><option value="ayarmolich-1482432149216" >Amanda Yarmolich (Administrator)</option><option value="ayarmolich-1516312531439" >Amanda Yarmolich (Medicare Sales)</option><option value="arthurj-1444715933929" >Arthur Ji (Administrator)</option><option value="arthurj-1534919625231" >Arthur Ji (Medicare Sales)</option><option value="BeverlyX" >Beverly Xu (Administrator)</option><option value="beverly.MedicareSale" >Beverly Xu (Medicare Sales)</option><option value="ms.bing" >Bing Hu (Medicare Sales)</option><option value="obr.bing" >Bing Hu (Outbound Rep)</option><option value="bcramer-1542223719885" >Brian Cramer (Medicare Sales)</option><option value="Candicel.Admin" >Candice Lin (Administrator)</option><option value="candicel-1432628345334" >Candice Lin (Medicare Sales)</option><option value="candicel-1539246749258" >Candice Lin (MS Enrollment Specialist)</option><option value="carolx admind" >Carol Xu (Administrator)</option><option value="carolx-1529027314022" >Carol Xu (Medicare Sales)</option><option value="cassiel-1458531020873" >Cassie Luo (Administrator)</option><option value="cassiel-1516670457840" >Cassie Luo (ifp-Sales Rep)</option><option value="celinac-1457341775456" >Celina Chen (Administrator)</option><option value="celinac-1461734633809" >Celina Chen (Medicare Sales)</option><option value="celinac-Super" >Celina Chen (Super)</option><option value="charlieq-Administrator" >Charlie Que (Administrator)</option><option value="charlieq-1526019925580" >Charlie Que (Medicare Sales)</option><option value="charlieq-1508467593057" >Charlie Que (Super)</option><option value="chenz-1535742161327" >Chen Zhang (Medicare Sales)</option><option value="cherrieg-1466490495368" >Cherrie Gong (Administrator)</option><option value="cherrieg-1466490601775" >Cherrie Gong (Medicare Sales)</option><option value="cherrieg-1470117730485" >Cherrie Gong (Super)</option><option value="cmiller" >Chris Miller (Administrator)</option><option value="RossCT2" >Chris Ross (Administrator)</option><option value="claytonk-1542003109867" >Clayton Kang (Administrator)</option><option value="claytonk-1534919588433" >Clayton Kang (Medicare Sales)</option><option value="clorisl-admin" >Cloris Li (Administrator)</option><option value="admin.coco" >Coco Wu (Administrator)</option><option value="colincAdm" >Colin Chen (Administrator)</option><option value="danl-1437640728750" >Dan Lin (Administrator)</option><option value="danl-1522311505476" >Dan Lin (Medicare Sales)</option><option value="danl-1475201306406" >Dan Lin (Super)</option><option value="dalvarez-1542076091569" >Danie'l Alvarez (Medicare Sales)</option><option value="dannyw-1487214803798" >Danny Wu (Administrator)</option><option value="administrator.darren" >Darren Huang (Administrator)</option><option value="demil-1542854848943" >Demi Li (Administrator)</option><option value="demil-1534919602312" >Demi Li (Medicare Sales)</option><option value="dylanz-1483495990729" >Dylan Zhang (Administrator)</option><option value="dylanz-1489975862168" >Dylan Zhang (Customer Retention)</option><option value="dylanz-1542604772301" >Dylan Zhang (ifp-Sales Rep)</option><option value="dylanz-1537325638580" >Dylan Zhang (Medicare Enrollment)</option><option value="dylanz-1483495967027" >Dylan Zhang (Medicare Sales)</option><option value="dylanz-1537325532337" >Dylan Zhang (MS Enrollment Specialist)</option><option value="edwardw-1534919569077" >Edward Wang (Medicare Sales)</option><option value="eileencqaadmin" >Eileen Chen (Administrator)</option><option value="elisac-1524469790524" >Elisa Chen (Administrator)</option><option value="elisac-1447639081959" >Elisa Chen (Medicare Sales)</option><option value="erhodes-1519236221485" >Elizabeth Rhodes (Administrator)</option><option value="erhodes-1491249055581" >Elizabeth Rhodes (Supervisor)</option><option value="ellenz.adminstrator" >Ellen Zhou (Administrator)</option><option value="ellenz.Medicaresales" >Ellen Zhou (Medicare Sales)</option><option value="ellenz-1538124125051" >Ellen Zhou (MS Enrollment Specialist)</option><option value="ellenz-1455671969615" >Ellen Zhou (Super)</option><option value="Elliec-1499845498011" >Ellie Chen (Administrator)</option><option value="Elliec-1518052247291" >Ellie Chen (Customer Retention)</option><option value="Elliec-1510559264777" >Ellie Chen (External Supervisor)</option><option value="Elliec-1510559221593" >Ellie Chen (External User)</option><option value="Elliec-1515654243947" >Ellie Chen (Medicare Enrollment)</option><option value="Elliec-1509412537447" >Ellie Chen (Medicare Sales)</option><option value="Elliec-1501487563603" >Ellie Chen (Reviewer)</option><option value="Elliec-1505964697519" >Ellie Chen (Super)</option><option value="elmag-1485311660691" >Elma Guo (Administrator)</option><option value="elmag-1510211607006" >Elma Guo (Super)</option><option value="emmay-1488425096428" >Emma Yang (Customer Retention)</option><option value="emmay-1458707623324" >Emma Yang (Customer Service)</option><option value="emmay-1452237796951" >Emma Yang (External Supervisor)</option><option value="emmay-1437032865263" >Emma Yang (External User)</option><option value="emmay-1444719077074" >Emma Yang (ifp-Sales Rep)</option><option value="emmay-1460537407052" >Emma Yang (Medicare Enrollment)</option><option value="emmay-1428994130253" >Emma Yang (Medicare Sales)</option><option value="emmay-1536635415148" >Emma Yang (MS Enrollment Specialist)</option><option value="emmay-1460603321920" >Emma Yang (Reviewer)</option><option value="emmay-1423989184580" >Emma Yang (Super)</option><option value="ehowellMedSales" >Eric Howell (Medicare Sales)</option><option value="HowellEH" >Eric Howell (Super)</option><option value="erin.gong" >Erin Gong (Administrator)</option><option value="erin.MedSales" >Erin Gong (Medicare Sales)</option><option value="erin.telesales" >Erin Gong (Telesales Rep)</option><option value="MS.frances" >Frances Hong (Medicare Sales)</option><option value="george Admin" >George Lin (Administrator)</option><option value="georgel-1531880037278" >George Lin (External Supervisor)</option><option value="georgel-1531211290819" >George Lin (ifp-Sales Rep)</option><option value="georgel-1537339811919" >George Lin (Medicare Enrollment)</option><option value="Georgellin" >George Lin (Medicare Sales)</option><option value="georgel-1537325741068" >George Lin (MS Enrollment Specialist)</option><option value="georgel-1521697967912" >George Lin (Super)</option><option value="georgel-1543994935880" >George Lin (Supervisor)</option><option value="gcarlini-1472609363163" >Gina Carlini (Medicare Sales)</option><option value="sup.glen" >Glen Nian (External Supervisor)</option><option value="me.glen" >Glen Nian (Medicare Enrollment)</option><option value="glen.ms" >Glen Nian (Medicare Sales)</option><option value="super.glen" >Glen Nian (Super)</option><option value="gtrawick-1536772640444" >Guy Trawick (Medicare Sales)</option><option value="harryadmin" >Harry Wang (Administrator)</option><option value="testing123" >Harvey Lin (Administrator)</option><option value="superHarv" >Harvey Lin (Super)</option><option value="henry.admin" >Henry Huang (Administrator)</option><option value="henry.huang" >Henry Huang (Medicare Sales)</option><option value="henry.super" >Henry Huang (Super)</option><option value="hmcleod-1516234900598" >Hidey McLeod (Customer Service)</option><option value="HollieAdmin" >Hollie Watson (Administrator)</option><option value="HollieMedSales" >Hollie Watson (Medicare Sales)</option><option value="HMakrisSB" >Holly Makris (Administrator)</option><option value="icyc-1487049745790" >Icy Chen (Administrator)</option><option value="jackz-1480929612571" >Jack Zhang (Administrator)</option><option value="jackz-1502853634307" >Jack Zhang (Super)</option><option value="jacobadmin" >Jacob Chen (Administrator)</option><option value="jadenz" >Jaden Zhuang (Administrator)</option><option value="ms.jaden" >Jaden Zhuang (Medicare Sales)</option><option value="admin.jayw" >Jayron Wang (Administrator)</option><option value="jeanc-1534492604579" >Jean Chen (Administrator)</option><option value="jeanc-1541482363380" >Jean Chen (External User)</option><option value="jeanc-1541572235819" >Jean Chen (Medicare Customer Service)</option><option value="jeanc-1542174950491" >Jean Chen (Medicare Enrollment)</option><option value="jeanc-1534919538868" >Jean Chen (Medicare Sales)</option><option value="jeanc-1542010484484" >Jean Chen (Super)</option><option value="jeff.admin" >Jeff Tan (Administrator)</option><option value="joanl-1479802121918" >Jeff Tan (Medicare Sales)</option><option value="JenJBO" >Jen Jiang (Administrator)</option><option value="jettl-1428390491831" >Jett Liu (Medicare Sales)</option><option value="jettl-1505811577916" >Jett Liu (Super)</option><option value="jewelz-1470383994742" >Jewel Zheng (Administrator)</option><option value="jewelz-1470384065865" >Jewel Zheng (Medicare Sales)</option><option value="jewelz-1471851430844" >Jewel Zheng (Super)</option><option value="jresler-1538506851930" >Joe Resler (Medicare Sales)</option><option value="admin.john" >John Guo (Administrator)</option><option value="johnw-1439278803020" >John Wen (Administrator)</option><option value="julesm-1430791363480" >Jules Meng (Administrator)</option><option value="admin-july" >July Yang (Administrator)</option><option value="julyy-1505239536412" >July Yang (ifp-Sales Rep)</option><option value="july licens" >July Yang (Medicare Compliance)</option><option value="julyy-1479094440320" >July Yang (Medicare Enrollment)</option><option value="medicaresales-july" >July Yang (Medicare Sales)</option><option value="julyy-1519894991615" >July Yang (Medicare Supervisor)</option><option value="julyy-1539246262529" >July Yang (MS Enrollment Specialist)</option><option value="Super(July)" >July Yang (Super)</option><option value="katieh-1468921824796" >Katie Huang (Administrator)</option><option value="katieh-1470212605040" >Katie Huang (Medicare Sales)</option><option value="kgoodwin-1534442716566" >Kelly Goodwin (Administrator)</option><option value="kgoodwin-1534919580946" >Kelly Goodwin (Medicare Sales)</option><option value="kellyh-1467697964622" >Kelly Huang (Administrator)</option><option value="kellyh-1467697758161" >Kelly Huang (Medicare Sales)</option><option value="kellyh-1503296177874" >Kelly Huang (Super)</option><option value="kevin.admin" >Kevin Que (Administrator)</option><option value="Kikik-1539585883994" >Kiki Ke (Administrator)</option><option value="Kikik-1542269651000" >Kiki Ke (Medicare Enrollment)</option><option value="krystallll" >Krystal Lu (Administrator)</option><option value="krystall-1510102116554" >Krystal Lu (Medicare Sales)</option><option value="gqage" >Krystal Lu (Super)</option><option value="kyrah-1437976379476" >Kyra Hou (Medicare Sales)</option><option value="KyraH" >Kyra Hou (Super)</option><option value="adminstrator-leel" >Lee Li (Administrator)</option><option value="lena.medsales" >Lena He (Medicare Sales)</option><option value="leol-1531358671159" >Leo Li (Administrator)</option><option value="leol-1533263376900" >Leo Li (Medicare Sales)</option><option value="lihuac-1534919558267" >Lihua Chen (Medicare Sales)</option><option value="BettsLX" >Linda Betts (Administrator)</option><option value="lhoward-1494445860234" >Lisa Howard (Administrator)</option><option value="luluk" >Lulu Ke (Administrator)</option><option value="luluk-1534919561301" >Lulu Ke (Medicare Sales)</option><option value="luluk-1461293174792" >Lulu Ke (Super)</option><option value="lymanl-1506070619442" >Lyman Lai (Medicare Sales)</option><option value="lynnl" >Lynn Lin (Administrator)</option><option value="MMelnyk-1533684805586" >Maria Melnyk (Administrator)</option><option value="MMelnyk-1533684778050" >Maria Melnyk (Medicare Sales)</option><option value="maxt-1504248096845" >Max Tian (Medicare Sales)</option><option value="mboreham-1410887525631" >Maxine Boreham (Medicare Sales)</option><option value="mewong-1412618940682" >Melissa Wong (Medicare Sales)</option><option value="Miah-1539847488986" >Mia Hong (Administrator)</option><option value="Miah-1540194167195" >Mia Hong (Medicare Sales)</option><option value="Miah-1540459199640" >Mia Hong (Super)</option><option value="mdonaldson-ms" >Michael Donaldson (Medicare Sales)</option><option value="millyc" >Milly Cai (Medicare Sales)</option><option value="Super.Milly" >Milly Cai (Super)</option><option value="qaqa" >Monica Qiu (Administrator)</option><option value="myrah-1530153598027" >Myra Huang (External User)</option><option value="myrah-1534919575903" >Myra Huang (Medicare Sales)</option><option value="myrah-1542702933093" >Myra Huang (Supervisor)</option><option value="nteater-1534919579137" >Nathan Teater (Medicare Sales)</option><option value="Neal-Admin" >Neal Yang (Administrator)</option><option value="neilj-1464258078734" >Neil Jiao (Administrator)</option><option value="neilj-1464923286097" >Neil Jiao (Super)</option><option value="NickW" >Nick Wu (Administrator)</option><option value="admn.norbert" >Norbert Xie (Administrator)</option><option value="Poppyh-1541570129618" >Poppy Hu (Administrator)</option><option value="Poppyh-1541570265895" >Poppy Hu (Medicare Sales)</option><option value="User Admin(Port)" >Port Zhang (Administrator)</option><option value="QAAdmin" >QA Windowstest (Administrator)</option><option value="QAMedicareSales" >QA Windowstest (Medicare Sales)</option><option value="OBrienW" >Rachel Wu (Medicare Sales)</option><option value="Medicare S.Rebecca" >Rebecca Chen (Medicare Sales)</option><option value="Super.Rebecca" >Rebecca Chen (Super)</option><option value="rkotwal-1429149746552" >Reshma Kotwal (Administrator)</option><option value="robenl-1487061336335" >Roben Lin (Administrator)</option><option value="rollanz-1533024856510" >Rollan Zhang (Administrator)</option><option value="romeomeds" >Romeo Manzano (Medicare Sales)</option><option value="rdixon-1534919605704" >Rosetta Dixon (Medicare Sales)</option><option value="newUser214" >Roson Luo (Administrator)</option><option value="royl-1542607776518"  selected="selected" >Roy luo (Super)</option><option value="sanapragada" >Sagarika Annapragada (Administrator)</option><option value="sannapragada-1412277251141" >Sagarika Annapragada (Medicare Sales)</option><option value="Sai.Admin" >Sai Lai (Administrator)</option><option value="sail-1534919596605" >Sai Lai (Medicare Sales)</option><option value="samy.user.admin" >Sam Ye (Administrator)</option><option value="sammie.admin" >Sammie Lin (Administrator)</option><option value="sammiesuper" >Sammie Lin (Super)</option><option value="sanyu.admin" >Sanyu Wang (Administrator)</option><option value="sanyuw-1506478223076" >Sanyu Wang (Customer Retention)</option><option value="ifp-Sales-Rep-sy" >Sanyu Wang (ifp-Sales Rep)</option><option value="sanyuw.medicarenroll" >Sanyu Wang (Medicare Enrollment)</option><option value="sanyuw.medsales" >Sanyu Wang (Medicare Sales)</option><option value="sanyuw-1537259059385" >Sanyu Wang (MS Enrollment Specialist)</option><option value="sanyuw-1528267664906" >Sanyu Wang (Senior Enrollment Rep)</option><option value="sanyuw.super" >Sanyu Wang (Super)</option><option value="stellas" >Stella Su (Super)</option><option value="BrainardS" >Steve Brainard (Administrator)</option><option value="sbMCSales" >Steve Brainard (Medicare Sales)</option><option value="sbMCSupervisor" >Steve Brainard (Medicare Supervisor)</option><option value="SuperSteve" >Steve Brainard (Super)</option><option value="steveSupervisor" >Steve Brainard (Supervisor)</option><option value="stevenl-1426831374868" >Steven Lin (Administrator)</option><option value="stevenl-1426831425054" >Steven Lin (Medicare Sales)</option><option value="stevenl-1447135466426" >Steven Lin (Super)</option><option value="schandrasekaram-1542414831153" >Sue Chandrasekaram (Administrator)</option><option value="Swing.Admin" >Swing Chen (Administrator)</option><option value="swing-medsales" >Swing Chen (Medicare Sales)</option><option value="tjackson-admin" >Tamera Jackson (Medicare Sales)</option><option value="DoyleT" >Tami Doyle (Administrator)</option><option value="tdoyle-1474564961956" >Tami Doyle (Medicare Sales)</option><option value="tao.sales.support" >Tao Huang (Administrator)</option><option value="terryx-1443409575625" >Terry Xu (Administrator)</option><option value="terryx-1502094492999" >Terry Xu (Medicare Enrollment)</option><option value="terryx-1484186894796" >Terry Xu (Medicare Sales)</option><option value="terryx-1456821061005" >Terry Xu (Super)</option><option value="administrator.bov2" >testFa testL (Administrator)</option><option value="bov2test-1489671072220" >testFa testL (Customer Retention)</option><option value="cs.bov2test" >testFa testL (Customer Service)</option><option value="bov2exsupvisor" >testFa testL (External Supervisor)</option><option value="external.bov2test" >testFa testL (External User)</option><option value="ifprep.bov2test" >testFa testL (ifp-Sales Rep)</option><option value="Harv25.19.39.30" >testFa testL (Medicare Enrollment)</option><option value="Harv25.19.39.51" >testFa testL (Medicare Sales)</option><option value="Harv25.19.40.26" >testFa testL (Medicare Supervisor)</option><option value="bov2test-1537350564985" >testFa testL (MS Enrollment Specialist)</option><option value="super.bov2test" >testFa testL (Super)</option><option value="TethysXu" >Tethys Xu (Administrator)</option><option value="thomasz-1499824506122" >Thomas Zhang (Administrator)</option><option value="Tom.Admin" >Tom Tang (Administrator)</option><option value="tomt-1510017990498" >Tom Tang (ifp-Sales Rep)</option><option value="tomt" >Tom Tang (Medicare Sales)</option><option value="tomtyyyyy" >Tom Tang (Super)</option><option value="admin.tracy" >Tracy Sun (Administrator)</option><option value="tracys-1534919628954" >Tracy Sun (Medicare Sales)</option><option value="tracyx " >Tracy Xie (Super)</option><option value="tarrington-1534836570402" >Trenton Arrington (Medicare Sales)</option><option value="TreverLee" >Trever Lee (Administrator)</option><option value="tlee-1410834427418" >Trever Lee (ifp-Sales Rep)</option><option value="TreverMCsales" >Trever Lee (Medicare Sales)</option><option value="tlee-1412983621131" >Trever Lee (Super)</option><option value="tsnell" >Trevor Snell (Medicare Sales)</option><option value="tlow" >Tricia Low (Administrator)</option><option value="vick.admin" >Vick Lin (Administrator)</option><option value="mcs.vickl" >Vick Lin (Medicare Sales)</option><option value="vickl-1429837815879" >Vick Lin (Super)</option><option value="vincentz-1534919562444" >Vincent Zheng (Medicare Sales)</option><option value="wendyh-1484895884749" >Wendy Huang (Administrator)</option><option value="wstidom-admin" >Whitney Stidom (Administrator)</option><option value="wstidom-ms" >Whitney Stidom (Medicare Sales)</option><option value="williec.admin" >Willie Chen (Administrator)</option><option value="bos.administrator" >Willis Bao (Administrator)</option><option value="xuejingc-1515401627762" >Xuejing Chen (Customer Retention)</option><option value="xuejingc-1452578861990" >Xuejing Chen (External Supervisor)</option><option value="xuejingc-1452578686709" >Xuejing Chen (External User)</option><option value="xuejingc-1459406934132" >Xuejing Chen (ifp-Sales Rep)</option><option value="xuejingc-1454654103749" >Xuejing Chen (Medicare Enrollment)</option><option value="xuejingc-1454482710723" >Xuejing Chen (Medicare Sales)</option><option value="xuejingc-1450425333704" >Xuejing Chen (Super)</option><option value="yih-1528249331225" >Yi Huang (ifp-Sales Rep)</option><option value="yih-1437615354890" >Yi Huang (Medicare Enrollment)</option><option value="yi-MedicareSales" >Yi Huang (Medicare Sales)</option><option value="yih-1536564781789" >Yi Huang (MS Enrollment Specialist)</option><option value="yih-1434349066416" >Yi Huang (Super)</option><option value="yonniay-1492760499503" >Yonnia Yang (Medicare Sales)</option></select></td>
+        <td align="left" colspan="1">
+        <br/><textarea name="mcei.db.WORK_QUEUE.TASK"  rows="5"  cols="70"    >
+</textarea></td>
+
+		<td valign="top">
+			<br/><select id="" name="mcei.db.WORK_QUEUE.PRIORITY" size="1"  ><option value="1" >1</option><option value="2" >2</option><option value="3"  selected="selected" >3</option></select></td>
+	</tr>
+	<tr class="trClass">
+		<td align="center" colspan="3">
+		<input Type="submit" Name="SaveMessage" Value="Save Action Item"/>
+			</td>
+	</tr>
+</table>
+
+</form><table width="100%" id="AppointmentTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+	<table cellspacing="2" cellpadding="4" width="95%">
+		<tr>
+			<th align="left">
+					Appointments (US/Mountain)
+			</th>
+		</tr>
+		<tr>
+		<td>
+			<div id="appointment_block">
+		     </div>
+		   </td>
+		</tr>
+		<tr class="trClass">
+			<td align="center">
+			<a href="/ehi/calendar/view-calendar?appointmentParams.recordId=15312974&appointmentParams.recordType=App&appointmentParams.firstName=AAFN-A&appointmentParams.lastName=AALN-A&appointmentParams.locations[0]=(001) 001-0001 (HM)&appointmentParams.locations[1]=()  (Cell)&appointmentParams.locations[2]=()  (WK)&mcei.app.terminalID=__tid__1_" onclick="window.open(this.href, 'ViewCalendar', 'left=100, top=100, width=900, height=650, scrollbars=no, resizable=yes, toolbar=no, maximizeButton=false, location=no, directories=no, menubar=no');return false;" >View Calendar</a></td>
+		</tr>
+	</table>
+	<form action="KeyInfo.ds" method="post" ><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="mcei.html.screen" value="KeyInfo"  /><input type="hidden" name="ehi._bid" value=""  /><input type="hidden" name="ehi.BannerClicked" value=""  /><script language="JavaScript">
+<!--
+	document.writeln('<input type="hidden" name="ehi.JAVASCRIPT_ENABLED" value="TRUE">');
+-->
+</script>
+
+
+
+<input type="hidden" name="mcei.db.APPLICATION_TRACKING._LEVEL_1" value="INDEX">
+
+<input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><input type="hidden" name="mcei.db.USER_PROFILE.LOGIN_ID" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="mcei.db.USER_PROFILE.OLD_LOGIN_ID" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="bo.KeyInfoEditMode" value=""  /><input type="hidden" name="bo.keyinfoedit.action" value="TrackingSave"  /><hr>
+<table width="100%" id="TrackingTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+<table cellspacing="2" cellpadding="4" width="95%" id="innerTrackingTable" name="innerTrackingTable">
+	<tr>
+		<th COLSPAN="6" align="left">Tracking</th>
+	</tr>
+                 	<tr class="headerTrClass">
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		</tr>
+<tr bgcolor="#F0F0F0"  ><td>Sent to Carrier</td>
+		<td>Outbound batch for Anthem Blue Cross and Blue Shield&nbsp;</td>
+		<td>
+            12-05-2018 10:00:25 pm&nbsp;
+            </td>
+		<td><input type="hidden" name="mcei.db.APPLICATION_TRACKING.1.OLD_NOTIF_DATE" value=""  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.1.STATUS_CODE" value="R1"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.1.CHANGED_DATE" value="12-05-2018 10:00:25 pm"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.1.USER_ID" value="Outbound batch for Anthem Blue Cross and Blue Shield"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.1.OPERATION_DESCRIPTION" value="Sent to Carrier"  /><input type="text" name="mcei.db.APPLICATION_TRACKING.1.NOTIFICATION_DATE" value="" maxlength="22"  /></td>
+			</tr><tr bgcolor="#ffffff"  ><td>Application Received</td>
+		<td>eSubmission&nbsp;</td>
+		<td>
+            12-05-2018 12:02:02 am&nbsp;
+            </td>
+		<td><input type="hidden" name="mcei.db.APPLICATION_TRACKING.2.OLD_NOTIF_DATE" value=""  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.2.STATUS_CODE" value="R3"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.2.CHANGED_DATE" value="12-05-2018 12:02:02 am"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.2.USER_ID" value="eSubmission"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.2.OPERATION_DESCRIPTION" value="Application Received"  /><input type="text" name="mcei.db.APPLICATION_TRACKING.2.NOTIFICATION_DATE" value="" maxlength="22"  /></td>
+			</tr><tr bgcolor="#F0F0F0"  ><td>Application Submitted</td>
+		<td>anonymous891928292535158321@ehealth.com&nbsp;</td>
+		<td>
+            12-05-2018 12:02:00 am&nbsp;
+            </td>
+		<td><input type="hidden" name="mcei.db.APPLICATION_TRACKING.3.OLD_NOTIF_DATE" value=""  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.3.STATUS_CODE" value="B2"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.3.CHANGED_DATE" value="12-05-2018 12:02:00 am"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.3.USER_ID" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.3.OPERATION_DESCRIPTION" value="Application Submitted"  /><input type="text" name="mcei.db.APPLICATION_TRACKING.3.NOTIFICATION_DATE" value="" maxlength="22"  /></td>
+			</tr><tr bgcolor="#ffffff"  ><td>Incomplete Application</td>
+		<td>anonymous891928292535158321@ehealth.com&nbsp;</td>
+		<td>
+            12-04-2018 11:57:04 pm&nbsp;
+            </td>
+		<td><input type="hidden" name="mcei.db.APPLICATION_TRACKING.4.OLD_NOTIF_DATE" value=""  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.4.STATUS_CODE" value="B0"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.4.CHANGED_DATE" value="12-04-2018 11:57:04 pm"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.4.USER_ID" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="mcei.db.APPLICATION_TRACKING.4.OPERATION_DESCRIPTION" value="Incomplete Application"  /><input type="text" name="mcei.db.APPLICATION_TRACKING.4.NOTIFICATION_DATE" value="" maxlength="22"  /></td>
+			</tr></table>
+
+        <input type="submit" name="submit" value="Save Changes">
+            </form><hr>
+<table width="100%">
+<tr>
+   <td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td>
+</tr>
+</table>
+
+<table cellspacing="2" cellpadding="4" width="95%" id="innerNotesTable" name="innerNotesTable">
+<tr>
+   <th COLSPAN="1" align="left">Notes</th>
+</tr>
+<tr class="trClass">
+   <td>&nbsp;</td>
+</tr>
+</table>
+
+<form action="KeyInfo.ds" method="post"  name="form1" ><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="mcei.html.screen" value="KeyInfo"  /><input type="hidden" name="ehi._bid" value=""  /><input type="hidden" name="ehi.BannerClicked" value=""  /><script language="JavaScript">
+<!--
+	document.writeln('<input type="hidden" name="ehi.JAVASCRIPT_ENABLED" value="TRUE">');
+-->
+</script>
+
+
+
+<input type="hidden" name="mcei.html.source" value="KeyInfo"  /><input type="hidden" name="bo.terminalID" value="__tid__1_"  /><input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><input type="hidden" name="bo.userType" value="Super"  /><input type="hidden" name="bo.KeyInfoEditMode" value=""  /><input type="hidden" name="bo.keyinfoedit.action" value="ComLogSave"  /><input type="hidden" name="mcei.db.USER_PROFILE.LOGIN_ID" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="loginclerkid" value="royl-1542607776518"/>
+<input type="hidden" name="mcei.db.USER_PROFILE.OLD_LOGIN_ID" value="anonymous891928292535158321@ehealth.com"  /><hr/>
+<table width="100%" name="ComLogLink" id="ComLogTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+<script type="text/javascript" src="/ehibo/scripts/ComlogUpdater.js"></script>
+<script type="text/javascript" src="/ehibo/scripts/IFPComlogUpdater.js"></script>
+<table border="0" CELLPADDING="4" CELLSPACING="2" width="95%" id="innerComLogUpdaterTable" name="innerComLogUpdaterTable">
+   <tr bgcolor="#006699">
+      <th colspan="5" align = "left"></th>
+   </tr>
+    <tr class="trClass" width="95%">
+        <td colspan="5">
+			<br/>
+			<select id="" name="bo.associatedWith" size="1"  ><option value="15312974" selected="selected">
+						MA - Empire BlueCross - Sent to Carrier</option>
+				</select></td>
+	</tr>
+    <tr class="trClass" width="95%">
+    	<td colspan="5">
+    	<table width="100%" border="0">
+    	<tr>
+    	<td width="33%">
+            <br/>
+            <select name="sales_comlog_entries" id="sales_comlog_entries" onchange="handleSalesCommonMessages()">
+            <option value="select">&lt; select one &gt;</option>
+            <script language="JavaScript">
+                createSalesList();
+            </script>
+            -->
+            </select>
+            </td><td width="33%">
+            <br/>
+            <select name="enrollment_comlog_entries" id="enrollment_comlog_entries" onchange="handleEnrollmentCommonMessages()">
+            <option value="select">&lt; select one &gt;</option>
+            <script language="JavaScript">
+			            createEnrollmentList(true);
+			        </script>
+				
+            -->
+            </select>
+            </td><td width="34%">
+            <br/>
+            <select name="custservice_comlog_entries" id="custservice_comlog_entries" onchange="handleCustomerServiceCommonMessages()">
+            <option value="select">&lt; select one &gt;</option>
+            <script language="JavaScript">
+                createCustomerServiceList();
+            </script>
+            -->
+            </select>
+            </td>
+           </tr>
+    	</table>
+    	</td>
+	</tr>
+	<tr class="trClass" height="55">
+    	<td width="13%">
+                    <br/><select name="sendrec" size="1">
+                    	<option value="select"></option>
+                    	<option value="R">Incoming</option>
+                        <option value="S">Outgoing</option>
+                        </select></td>
+        <td width="15%">
+            <br/><input Type="text" name="tofromid" size="14" value="Applicant"/></td>
+        <td width="30%" id="miscnotesIdOne">
+            <br/><select name="miscnotes" size="1">
+            	<option value="select"></option>
+            	<script language="JavaScript">
+	                createSubjectList();
+	            </script>
+	            <option value="Other">Other</option>
+            </select></td>
+                  <td width="30%" id="miscnotesIdTwo" style="display:none">
+                        <br/><select name="othermiscnotes" size="1" onchange="handleComlogType()">
+                  </select></td>
+        <td width="27%">
+        <table width="100%" border="0">
+    	 <tr>
+    	   <td>
+    		<br/>
+            <select name="doctype" size="1" onChange="comlogTypeChanged()">
+            	<option value="select"></option>
+            	<option value="phone">Phone Call - Customer</option>
+                <option value="OB Phone Call - Customer">OB Phone Call - Customer</option>
+                <option value="Phone Call - Carrier">Phone Call - Carrier</option>
+                <option value="Phone Call - Internal">Phone Call - Internal</option>
+                <option value="Voice Mail">Voice Mail</option>
+                <option value="Phone Contact Problem">Phone Contact Problem</option>
+                <option value="fax">Fax</option>
+                <option value="email">E-Mail</option>
+                <option value="chat">Chat</option>
+                <option value="general">General</option>
+                <option value="letter">Letter</option>
+                <option value="Report">Report</option>
+                <option value="e-Fax">E-Fax</option>
+                <option value="Medicare.com">Medicare.com</option>
+                <option value="Transferred to Sales">Transferred to Sales</option>
+                <option value="Action Needed">Action Needed</option>
+                <option value="Withdraw">Withdraw</option>
+                <option value="Cancel">Cancel</option>
+                <option value="Social Media">Social Media</option>
+                </select>
+           </td>
+           <td id="phoneTD">
+            
+			<br><input name="areaCode" type="text" size="3" maxlength="3"><input name="phoneNumber" type="text" size="8" maxlength="8">
+		   </td>
+		  </tr>
+		</table>
+		</td>
+        <td width="15%"><br/>
+        	<select name="extranetviewable" size="1">
+            	<option value="N">No</option>
+                <option value="Y">Yes</option>
+            </select>
+	    </td>
+    </tr>
+    <tr class="trClass">
+        <td align="left" colspan="3">
+        	<br/>
+        	<textarea rows="5" cols="70" name="userFile"></textarea>
+        </td>
+        <td colspan="1">
+        	(Ctrl to select multi items)<br/>
+        	<select id="" name="mcei.db.category" size="4"  multiple  ><option value="21" >Affiliate - business partner complaint</option><option value="4" >Carrier - available doctor issue</option><option value="5" >Carrier - benefit issue</option><option value="6" >Carrier - billing issue</option><option value="7" >Carrier - claim processing issue</option><option value="8" >Carrier - id card issue</option><option value="9" >Carrier - poor response time</option><option value="10" >Carrier - rate increase</option><option value="11" >Carrier - rude or unprofessional</option><option value="22" >Carrier - unable to locate applicant</option><option value="23" >Carrier - untimely mailing of materials</option><option value="1" >Carrier Alternative Offer - exclusion</option><option value="2" >Carrier Alternative Offer - partial approval</option><option value="3" >Carrier Alternative Offer - rate increase</option><option value="13" >Customer - can no longer afford</option><option value="24" >Customer - cancel/withdraw request</option><option value="25" >Customer - carrier of choice declined</option><option value="30" >Customer - covered by employer</option><option value="32" >Customer - covered by parents plan</option><option value="31" >Customer - medicare eligible</option><option value="12" >Customer - moved</option><option value="14" >Customer - obtaining ER coverage</option><option value="16" >DOI - definite issue</option><option value="15" >DOI - potential issue</option><option value="29" >EHI - IT/technical problem</option><option value="26" >EHI - bug Issue/application error</option><option value="27" >EHI - email address issue</option><option value="28" >EHI - email unable to be delivered</option><option value="17" >EHI - incorrect information provided</option><option value="18" >EHI - not able to solve problem(s)</option><option value="19" >EHI - poor response time</option><option value="20" >EHI - rude or unprofessional</option><option value="36" >Medicare Complaint - Benefit Coverage</option><option value="39" >Medicare Complaint - Carrier Related Issue</option><option value="34" >Medicare Complaint - Moved</option><option value="38" >Medicare Complaint - Other eHealth Related Issue</option><option value="35" >Medicare Complaint - Provider is not in Network</option><option value="37" >Medicare Complaint - Wanted Dental or Vision</option><option value="33" >Medicare Complaint- Affordability</option></select></td>
+		<td valign="top">
+        <br/><select id="" name="bo.salesprograms" size="1"  ><option value="" >NONE</option><option value="605" >baweter</option><option value="624" >Chat</option><option value="444" >hollytest' waitfor delay'0:0:20'--</option><option value="445" >hollytest')waitfor delay'0:0:20'--</option><option value="446" >hollytest',0)waitfor delay'0:0:20'--</option><option value="435" >hollytest081cc&lt;a b=c&gt;d64e1</option><option value="424" >hollytest123</option><option value="404" >Xiamen</option></select></td>
+    </tr>
+    <tr class="trClass">
+        <td align="center" colspan="5">
+        <input onClick="saveComlog();return false;" Type="submit" Name="SaveMessage" id="saveComLog" Value="Save Com-Log"/>
+			</td>
+    </tr>
+    <tr>
+    	<td align="center" colspan="5">
+    		<div id="comlogText" class="errorlabel">
+    			</div>
+    	</td>
+    </tr>
+    </table>
+</form><hr>
+
+<link href="/ehibo/styles/ui-lightness/jquery-ui-1.10.1.custom.css" rel="stylesheet" type="text/css" />
+<link href="/ehibo/styles/ui.jqgrid.css" rel="stylesheet" type="text/css" />
+<link href="/ehibo/styles/jQuery.searchBox.css" rel="stylesheet" type="text/css" />
+<link href="/ehibo/styles/multicomlog.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/ehibo/scripts/grid.locale-en.js"></script>
+<script type="text/javascript" src="/ehibo/scripts/jquery.jqGrid.src.js"></script>
+<script type="text/javascript" SRC="/ehibo/scripts/jQuery.searchBox.js"></script>
+<script type="text/javascript" SRC="/ehibo/scripts/jquery.ThreeDots.js"></script>
+<script type="text/javascript" SRC="/ehibo/scripts/MultiComLog.js"></script>
+<div id="multi_comlog_table_container" style="width:95%;">
+
+<!-- begin -->
+
+<div class="header clearfix">
+	<div class="header-section-left">
+	    <div class="header-types clearfix">
+	        <p class="types">Types:</p>
+		    <fieldset>
+			    <ul>
+			        <li class="all"><input type="checkbox" name="allComlogType" checked="checked" value="All" /><p>All</p></li>
+			        <li class="phone"><input type="checkbox" name="comlogType" checked="checked" value="Phone" /><p>Phone</p></li>
+			        <li class="wq"><input type="checkbox" name="comlogType" checked="checked" value="WQ" /><p>WQ</p></li>
+			        <li class="email"><input type="checkbox" name="comlogType" checked="checked" value="Email" /><p>Email</p></li>
+			        <li class="chat"><input type="checkbox" name="comlogType" checked="checked" value="Chat" /><p>Chat</p></li>
+			        <li class="other"><input type="checkbox" name="comlogType" checked="checked" value="Other" /><p>Other</p></li>
+			        <li class="system"><input type="checkbox" name="comlogType" checked="checked" value="System" /><p>System</p></li>
+			        <li class="extranet"><input type="checkbox" name="extranet" value="Extranet" /><p>Extranet only</p></li>
+			    </ul>
+		    </fieldset>
+	    </div>
+	
+	    <div class="header-include clearfix">
+	        <p class="include">Include:</p>
+		    <fieldset>
+			    <ul class="include-types">
+			        <li class="all"><input type="checkbox" name="allIncludeType" checked="checked" value="All" /><p>All</p></li>
+			        <li class="ThisApp"><input type="checkbox" name="includeType" checked="checked" value="ThisApp" /><p>This App</p></li>
+			        <li class="OtherApps"><input type="checkbox" name="includeType" checked="checked" value="OtherApps" /><p>Other Apps</p></li>
+			        <li class="Leads"><input type="checkbox" name="includeType" checked="checked" value="Leads" /><p>Leads</p></li>
+			    </ul>
+                <ul>
+                    <li><input type="radio" name="statusType"  value="Active" /><p>Active</p></li>
+                    <li><input type="radio" name="statusType"  value="Inactive" /><p>Inactive</p></li>
+                    <li><input type="radio" name="statusType" checked="true" value="" /><p>Both</p></li>
+                </ul>
+		    </fieldset>
+	    </div>
+	</div>  
+    
+    <div class="header-section-right">
+	    <div id="os-bar"><form id='search-form' >
+	        <div id="search-box" class="search-os" action="" style="border: 1px solid green">
+	            <input class="search-submit" type="submit" value="" />
+	            <input class="search-input" type="text" value="Search..." />
+	            <input class="search-reset" type="reset" value="" />
+	        </div></form>
+	    </div>
+	    <div class="header-content-list clearfix">
+	        <input type="checkbox" class="content-list-view" id="chkCLV" /><label for="chkCLV"><span>Content list view</span></label>
+	    </div>
+    </div>   
+</div>
+<!-- end -->
+    <table id="multi_comlog_table">
+        <tr>
+            <td />
+        </tr>
+    </table>
+    <div id="content-list-view-container"></div>
+</div><form action="DocCorrespondence.ds" method="post" ><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="ehi._bid" value=""  /><hr/>
+		<table width="100%" id="OutgoingMessageTable" name="OutgoingMessageTable"><tr><td align="right"><button name="BackToTopLink" type="button" onclick="scrollToLocation('topBanner')">back to top</button></td></tr></table>
+		<input type="hidden" name="bo.app_id" value="15312974"/>
+        <input type="hidden" name="mcei.db.fromPE" value=""  /><input type="hidden" name="mcei.db.MEMBER.1.SOCIAL_SECURITY_NUMBER" value=""  /><input type="hidden" name="mcei.db.APPLICATION.FAMILY_SIZE" value="1"  /><input type="hidden" name="mcei.db.MEMBER.1.FIRST_NAME" value="AAFN-A"  /><input type="hidden" name="mcei.db.MEMBER.1.LAST_NAME" value="AALN-A"  /><input type="hidden" name="mcei.db.USER_PROFILE.LOGIN_ID" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="mcei.db.ADDRESS.HOME.ADDRESS_LINE_1" value="AAHOMESTREETA"  /><input type="hidden" name="mcei.db.ADDRESS.HOME.CITY" value="AAHOMECITYA"  /><input type="hidden" name="mcei.db.ADDRESS.HOME.STATE" value="NY"  /><input type="hidden" name="mcei.db.ADDRESS.HOME.ZIP_CODE" value="10960"  /><input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><input type="hidden" name="bo.KeyInfoEditMode" value=""  /><input type="hidden" name="bo.keyinfoedit.action" value="OutgoingCorrSave"  /><table BORDER="0" CELLPADDING="4" CELLSPACING="2" bgcolor="#FFFFFF" width="95%" id="innerOutgoingMessageTable" name="innerOutgoingMessageTable">
+            <tr class="trClass">
+                <th COLSPAN="3">
+                        Generate Outgoing Correspondence
+                </th>
+            </tr>
+            <tr class="trClass">
+                <td colspan="3">
+                AAFN-AAAAALN-A
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                 
+                        (001) 001-0001
+		                &nbsp;&nbsp;&nbsp;&nbsp;
+
+		                 
+		                        (002) 002-0002
+
+                &nbsp;&nbsp;&nbsp;&nbsp;anonymous891928292535158321@ehealth.com</td>
+            </tr>
+
+			<tr class="trClass">
+                <td>
+                    <select id="" name="bo.DOCUMENT_TEMPLATE_ID" size="1"  ><option value="50169" >Email-0xiaoyan-Test-123</option><option value="49451" >Email-AARP Med Supp Enrollment Kit</option><option value="39976" >Email-added by thomast for testing</option><option value="48800" >Email-Admin-sfy-template</option><option value="37255" >Email-affiliate and campaign</option><option value="39099" >Email-affiliate merge tag test</option><option value="39934" >Email-All tag-jane test</option><option value="39556" >Email-All tags included (QA)</option><option value="38563" >Email-all tags without lead tags</option><option value="41733" >Email-all-ifp-merge-tag-regression-html-outgoing-Nodelete</option><option value="47972" >Email-all-ifp-merge-tag-regression-txt-outgoing-Nodelete</option><option value="41311" >Email-All-merge-tag-regression-no-delete</option><option value="35708" >Email-An Affiliate Link Template</option><option value="39607" >Email-Ancillary TPI Verification Email</option><option value="34914" >Email-Andy / email template / show both / version 1</option><option value="39098" >Email-Application Returned sdfsdf</option><option value="35189" >Email-Automation Email for Issue 145679</option><option value="39130" >Email-Batch HTML Test</option><option value="39553" >Email-Batch Test 2</option><option value="38211" >Email-bbbbTemplateName</option><option value="48092" >Email-bing Test</option><option value="41854" >Email-bingTest</option><option value="31605" >Email-bingTest for UnsubscribeURL</option><option value="32922" >Email-BizHSAEmployeeLogin1</option><option value="45076" >Email-brace testa</option><option value="17365" >Email-Bulk correspondence/Gloria</option><option value="47468" >Email-C/S - Accident Insurance Follow Up</option><option value="47472" >Email-C/S - Critical Illness Insurance Follow Up</option><option value="47463" >Email-C/S - Dental Insurance Follow Up</option><option value="45150" >Email-C/S - Document Viewable</option><option value="48281" >Email-C/S - GAP Insurance Follow up</option><option value="47481" >Email-C/S - IFP Insurance Follow Up</option><option value="47470" >Email-C/S - Short Term Coverage Follow Up</option><option value="47483" >Email-C/S - Supplemental health insurance</option><option value="47257" >Email-C/S - Telemedicine X-sell</option><option value="47465" >Email-C/S - Vision Insurance Follow Up</option><option value="46613" >Email-C/S - Wellmark Important Notice</option><option value="43344" >Email-C/S - Withdraw/Cancel ? Email</option><option value="43345" >Email-C/S - Withdrawal by Fax</option><option value="30641" >Email-C/S Change eff. Date</option><option value="38558" >Email-C/S Generic Message</option><option value="30725" >Email-C/S Has application been received</option><option value="30638" >Email-C/S ID card not received yet</option><option value="30640" >Email-C/S Refund Request HIC does not cash check</option><option value="30724" >Email-C/S Reprint Application</option><option value="30731" >Email-C/S Resending ID Cards</option><option value="30642" >Email-C/S Status Inquiry Received by Carrier</option><option value="30723" >Email-C/S Status Inquiry Received by Carrier</option><option value="30639" >Email-C/S Withdraw / Cancel</option><option value="41983" >Email-carrier's billing phone number</option><option value="18346" >Email-ccccTemplateName</option><option value="50493" >Email-celina test</option><option value="42883" >Email-CEM auto carrier approved</option><option value="42386" >Email-CEM Brand name merge tag</option><option value="44902" >Email-CEM Encrypted email test</option><option value="7824" >Email-changed email</option><option value="49195" >Email-charlie lead-token-id test</option><option value="41091" >Email-cicy test</option><option value="38205" >Email-com-log test12/7</option><option value="37776" >Email-cool</option><option value="30746" >Email-Copy of PDF as per request</option><option value="30745" >Email-Copy of PDF to obtain missing information</option><option value="37883" >Email-Create an Account for a Guest</option><option value="47482" >Email-CS - Critical Illness Insurance Follow Up</option><option value="47498" >Email-CS - Gap PPE Follow Up</option><option value="45073" >Email-curlyBracesTest</option><option value="47833" >Email-Customer Served Test</option><option value="32522" >Email-dac4-temp</option><option value="32321" >Email-dannyz-tempt</option><option value="41082" >Email-david.fang</option><option value="18198" >Email-denistest07</option><option value="17908" >Email-dfgdfsgdsfg</option><option value="49904" >Email-Don't change - Core regression template</option><option value="47577" >Email-dsfsdf</option><option value="49867" >Email-dylan test 1</option><option value="50494" >Email-dylan-test-SmartSalutation-001</option><option value="50495" >Email-dylan-test-SmartSalutation-002</option><option value="44568" >Email-eHealth Medicare - Plan Comparison 2.0	</option><option value="48690" >Email-ellie's test</option><option value="49357" >Email-ellie's test - {CarrierBillingNum}</option><option value="31648" >Email-Email Opt Out -All</option><option value="31647" >Email-EMail Opt Out Text Version</option><option value="41741" >Email-EmailtemplateTest</option><option value="48146" >Email-emma test 2017</option><option value="46087" >Email-emma test for BKOF-6031</option><option value="41721" >Email-Encoded Carrier Name</option><option value="41836" >Email-EncryptEmailAddress</option><option value="39798" >Email-engr-219566 temp</option><option value="17806" >Email-ENGR64122-IFP</option><option value="45488" >Email-Enrollment - Additional Information Needed  </option><option value="47674" >Email-Enrollment - Carrier Requires Additional Information (AON)</option><option value="30728" >Email-Enrollment Generic Message</option><option value="40262" >Email-EnrollmentRepFirstName</option><option value="12004" >Email-Erics Silly Template</option><option value="41348" >Email-Erin test for email merge tag</option><option value="41722" >Email-fangyuanTamplate</option><option value="30742" >Email-Fax received</option><option value="47292" >Email-fleming-PPE-template-test</option><option value="38632" >Email-galen test 199268</option><option value="38673" >Email-galen test 199268 text version</option><option value="39158" >Email-galen test for ENGR-205102 </option><option value="48145" >Email-GAP Test</option><option value="18508" >Email-Generic Test</option><option value="41963" >Email-Glen_TEST_ON_QA_SET</option><option value="18728" >Email-Goodgood study</option><option value="4664" >Email-Got Message</option><option value="45407" >Email-Harvey --  Medicare - PDP Team Quote Request</option><option value="45406" >Email-Harvey -- Medicare - PDP Personalized Quote</option><option value="40278" >Email-Hollytest</option><option value="40610" >Email-Hollytest1</option><option value="13811" >Email-Home 2 URL</option><option value="13809" >Email-Home URL</option><option value="39748" >Email-HTML TEST - Roxanne</option><option value="47016" >Email-http client testing</option><option value="31645" >Email-Hubing Test For UnsubscribeURL</option><option value="46323" >Email-hyman-test</option><option value="46332" >Email-hyman-txt</option><option value="15971" >Email-ID merge tag</option><option value="38145" >Email-IFPCustomerServiceHours</option><option value="38135" >Email-IFPCustomerServiceHours/IFPCallCenterHours</option><option value="4593" >Email-inbound email test</option><option value="47684" >Email-Internal Referral Program - IFP</option><option value="47685" >Email-Internal Referral Program - Medicare</option><option value="40812" >Email-Jackson-email</option><option value="39947" >Email-Jaden Test</option><option value="39646" >Email-janeg</option><option value="48920" >Email-joan lian test work hours merge tag</option><option value="48486" >Email-joan sdsdsdsxcvytrre</option><option value="47179" >Email-joan test</option><option value="49215" >Email-Joan test Lead {LeadTokenID}</option><option value="49129" >Email-joan test photo merge tag</option><option value="48484" >Email-joandfhdsfjsdfh</option><option value="48461" >Email-Joantest lian enable/disable</option><option value="47601" >Email-joantestInstallEmail</option><option value="12524" >Email-kennycreatetemplate</option><option value="50485" >Email-kiki-IFPCustomerServiceHours</option><option value="18507" >Email-LetterQAsz1</option><option value="46093" >Email-LG_Test</option><option value="8624" >Email-Licensing Link</option><option value="39910" >Email-litton-URL-TEST</option><option value="41831" >Email-litton_InitialPaymentDue_test01</option><option value="41401" >Email-littonnulltempBKOF-1265</option><option value="43104" >Email-Littontest Important payment information for your {CarrierName} application</option><option value="19617" >Email-mail merge template</option><option value="42261" >Email-MCQuoteLink 2</option><option value="41550" >Email-Medicare</option><option value="45632" >Email-Medicare - Online Data Collection Invitation</option><option value="50337" >Email-Medicare - PDP Personalized Quote</option><option value="45757" >Email-Medicare - PDP Team Quote Request</option><option value="42201" >Email-Medicare - Summary of Benefits Link</option><option value="49533" >Email-Medicare FB Test</option><option value="42095" >Email-Medicare harv</option><option value="49905" >Email-Medicare Retention Survey (PROD COPY)</option><option value="49919" >Email-Medicare Retention Survey (PROD COPY) - czGNW96307</option><option value="49921" >Email-Medicare Retention Survey (PROD COPY) - dmxOn27608</option><option value="49920" >Email-Medicare Retention Survey (PROD COPY) - fpApV17294</option><option value="49923" >Email-Medicare Retention Survey (PROD COPY) - ROeJd70487</option><option value="49925" >Email-Medicare Retention Survey (PROD COPY) - sZSUv66479</option><option value="49924" >Email-Medicare Retention Survey (PROD COPY) - tPAld76938</option><option value="49918" >Email-Medicare Retention Survey (PROD COPY) - XLrvC27459</option><option value="41555" >Email-Medicare test</option><option value="42094" >Email-medicare test harv</option><option value="43801" >Email-Medicare4849</option><option value="45665" >Email-MedicareCallCenterHours test for BKOF-5552</option><option value="41111" >Email-meidicare tags test</option><option value="39610" >Email-MS TPI Verification Email</option><option value="28970" >Email-new email template NO. 001</option><option value="17186" >Email-new one</option><option value="45758" >Email-Omniture</option><option value="39907" >Email-OmnitureTracking</option><option value="43993" >Email-Online Data Collection Invitation Email - No Appointment(for test)</option><option value="13888" >Email-outgoingtest</option><option value="2783" >Email-Paul Key Info Affiliate Test Name</option><option value="35588" >Email-paultest0708QA</option><option value="21422" >Email-Phone call Customer</option><option value="41011" >Email-Phone Numbers</option><option value="48105" >Email-Plan Proposal Template - June 2017</option><option value="31707" >Email-Please rate our site</option><option value="5044" >Email-QA template for InBoundEmail script  -  Do not delete</option><option value="5264" >Email-QA template for PPS  InBoundEmail script  </option><option value="7664" >Email-QA test - sz1</option><option value="5106" >Email-QA Test for Weblogic 6.1</option><option value="40144" >Email-QASBCStatementLink</option><option value="4023" >Email-qatemplateoriginal2</option><option value="41084" >Email-qiguai</option><option value="41315" >Email-qq</option><option value="40106" >Email-Quote link test</option><option value="40108" >Email-Quote Links</option><option value="46763" >Email-RE: Your Medicare Health Information Reques</option><option value="30729" >Email-Received signed application</option><option value="30733" >Email-Request for Additional Premium</option><option value="30734" >Email-Request for Fax Number</option><option value="30732" >Email-Request for Fax Number</option><option value="30735" >Email-Request for Initial Premium</option><option value="36988" >Email-retuning user rating survey</option><option value="10705" >Email-Ron Test 012904</option><option value="48572" >Email-Sales - Medishare Template Follow Up</option><option value="33827" >Email-Sales - Short Record - Plan Profile</option><option value="30727" >Email-Sales Generic Message</option><option value="39935" >Email-SalesRep</option><option value="31743" >Email-SecureTest</option><option value="18405" >Email-set30</option><option value="18385" >Email-setTest</option><option value="18386" >Email-setTest222</option><option value="41768" >Email-SFY</option><option value="21272" >Email-sggfdd</option><option value="41595" >Email-shane#20140530IFP</option><option value="40788" >Email-shane#outgoing test</option><option value="44022" >Email-showSinglePlantest</option><option value="42068" >Email-SOB tag</option><option value="39766" >Email-Spanish Test</option><option value="34617" >Email-ssdd</option><option value="44703" >Email-Steve CSS Test</option><option value="48068" >Email-subscribe</option><option value="40254" >Email-SubscribeURL</option><option value="45768" >Email-subsidy app id 5616</option><option value="30749" >Email-Survey</option><option value="46766" >Email-Sutter / UHC Community Events</option><option value="46765" >Email-Sutter/UHC Community Events</option><option value="13431" >Email-tagstest04</option><option value="16825" >Email-Template for 59268</option><option value="18869" >Email-Template Name creation new standand email</option><option value="36129" >Email-templates with compaign id</option><option value="41274" >Email-test</option><option value="41802" >Email-Test - Short Term Retention Merge Tag</option><option value="49685" >Email-test by ellie - product line</option><option value="5696" >Email-test email</option><option value="5692" >Email-test email</option><option value="8167" >Email-test email ggg</option><option value="45114" >Email-test for bkof-5257</option><option value="47705" >Email-Test For BKOF-6831_Case1</option><option value="47717" >Email-Test For BKOF-6831_Case2</option><option value="47721" >Email-Test For BKOF-6831_Case3</option><option value="47723" >Email-Test For BKOF-6831_Case4</option><option value="47727" >Email-Test For BKOF-6831_Case5</option><option value="47728" >Email-Test For BKOF-6831_Case6</option><option value="47731" >Email-Test For BKOF-6831_Case7</option><option value="47733" >Email-Test For BKOF-6831_Case8</option><option value="43827" >Email-test for image.com</option><option value="43907" >Email-Test for MessageTags</option><option value="47965" >Email-test for open brace and closed brace</option><option value="48971" >Email-test for sales_rep</option><option value="45599" >Email-test for {MedicareCallCenterHours} --don't delete</option><option value="45547" >Email-test for {subsidy_app_ID}</option><option value="36069" >Email-Test IFP Inbound Email</option><option value="11884" >Email-test lead sales rep issues on qa</option><option value="38494" >Email-Test MedicareCustomerService</option><option value="38479" >Email-Test MedicareCustomeService ea</option><option value="31209" >Email-Test Merge Fields</option><option value="17366" >Email-Test on bulk correspondence</option><option value="43581" >Email-test PPE</option><option value="37409" >Email-test PPE Temp</option><option value="37672" >Email-Test PrivacyURL</option><option value="31706" >Email-test quotelink</option><option value="50208" >Email-test SOB by ellie 0810</option><option value="11904" >Email-Test Template</option><option value="5853" >Email-Test Template for new release</option><option value="38493" >Email-Test Unique ID</option><option value="38189" >Email-test-12/5</option><option value="39961" >Email-test123456</option><option value="37249" >Email-testarosa</option><option value="7804" >Email-TestonQA2-1</option><option value="48684" >Email-testvpname</option><option value="2150" >Email-Thank you for submitting your Application</option><option value="43602" >Email-This is for billing number test {CarrierBillingNum}</option><option value="37750" >Email-This is from  Standard Email Templates to test 159198 medicare merge tags. abcdefgh hijklmn opqrst u</option><option value="18425" >Email-today</option><option value="18646" >Email-today444444</option><option value="15968" >Email-Unique ID</option><option value="35234" >Email-unsubscribe</option><option value="37641" >Email-UnsubscribeURL</option><option value="38900" >Email-Urine Test Required</option><option value="30740" >Email-Verification Phone call</option><option value="18807" >Email-Vista temp test-79824</option><option value="37303" >Email-watermark</option><option value="30726" >Email-We have received your check</option><option value="47863" >Email-wendytest</option><option value="47865" >Email-wendytest2</option><option value="49038" >Email-werwer</option><option value="38518" >Email-what's this haha heihei</option><option value="33840" >Email-withdrawn</option><option value="45119" >Email-xiaoning test curly braces</option><option value="42502" >Email-xiaoyan-test-11</option><option value="41382" >Email-xiaoyan12312</option><option value="46097" >Email-xxa - Call for benefit/plan recommendation</option><option value="45991" >Email-xxa Generic Message</option><option value="33527" >Letter-3</option><option value="6105" >Letter-4000 test 2</option><option value="18506" >Letter-44926test8</option><option value="6008" >Letter-4k chars</option><option value="31933" >Letter-52347html</option><option value="37777" >Letter-&lt;font color = red&gt;reddd &lt;script&gt;alert(&quot;Xss&quot;);&lt;/script&gt;&lt;color fo&gt;nt&lt;/font&gt; </option><option value="7687" >Letter-A-Test SZ04</option><option value="8168" >Letter-AA  nnnnn</option><option value="35180" >Letter-aaaaaaaaaaaaaaaaaaaaaaaa</option><option value="14667" >Letter-Aetna Checklist</option><option value="5685" >Letter-Andy / letter / html / ver2</option><option value="2153" >Letter-Application Returned</option><option value="38560" >Letter-Automation Letter for Issue 145679</option><option value="7706" >Letter-BOQA Test szd1</option><option value="14745" >Letter-Bret QA Test1</option><option value="5766" >Letter-Checklist - BCCA Med Sup 2</option><option value="2154" >Letter-Conditional receipt</option><option value="32524" >Letter-dac4letter t</option><option value="18338" >Letter-fffffffffffffffffff</option><option value="5564" >Letter-Generic Test</option><option value="5545" >Letter-HTML Survey</option><option value="5792" >Letter-html test 5</option><option value="12525" >Letter-kennycreatetemplatefor book</option><option value="31643" >Letter-letter</option><option value="5793" >Letter-letter template 8/19</option><option value="7785" >Letter-LetterQAsz1</option><option value="5520" >Letter-Message from eHealthInsurance</option><option value="28972" >Letter-new letter template No. 001</option><option value="36649" >Letter-Standard LetterTemplates to test 159198 medicare merge tags.</option><option value="18509" >Letter-test email</option><option value="48972" >Letter-thomasz sales</option><option value="41522" >Letter-xiaoyan-test-letter-1</option></select></td>
+
+                <td align="left">
+                <input type="submit" name="submit" value="Generate Correspondence"/>
+                </td>
+            </tr>
+
+        </table>
+        <hr/>
+        </form><form action="KeyInfoEdit.ds?bo.KeyInfoEditMode=edit" method="post"  name="editForm" ><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="ehi._bid" value=""  /><input type="hidden" name="bo.search.lName" value=""  /><input type="hidden" name="bo.search.ssn" value=""  /><input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><input type="hidden" name="mcei.db.fromPE" value=""  /><INPUT TYPE="image" onClick="pressEdit(this)" name="editButton" SRC="/ehibo/images/editBlue.gif" BORDER="0"  VALUE="Save">
+		</form><!--we can't put the form at the top of the file, because <form> tag will cause extra line break, so move it to the end
+used for email attachments icon links in com-log, it needs to get the terminal_id
+carrier help guide also uses some hidden values here.
+-->
+<form action="KeyInfo.ds" method="post"  name="formAttachment" ><input type="hidden" name="mcei.app.terminalID" value="__tid__1_"  /><input type="hidden" name="mcei.html.screen" value="KeyInfo"  /><input type="hidden" name="ehi._bid" value=""  /><input type="hidden" name="ehi.BannerClicked" value=""  /><script language="JavaScript">
+<!--
+	document.writeln('<input type="hidden" name="ehi.JAVASCRIPT_ENABLED" value="TRUE">');
+-->
+</script>
+
+
+
+<input type="hidden" name="bo.appId" value="15312974"  /><input type="hidden" name="bo.lock" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;lock&gt;
+&lt;resource-id&gt;14300080&lt;/resource-id&gt;
+&lt;lock-type&gt;1&lt;/lock-type&gt;
+&lt;lock-time&gt;1544066913966&lt;/lock-time&gt;
+&lt;lock-tcn&gt;1&lt;/lock-tcn&gt;
+&lt;owner&gt;
+&lt;owner-id&gt;emma.user&lt;/owner-id&gt;
+&lt;priority-level&gt;1&lt;/priority-level&gt;
+&lt;/owner&gt;
+&lt;resource-info&gt;
+&lt;table-name&gt;APPLICATION&lt;/table-name&gt;
+&lt;record-keys&gt;APPLICATION_ID=15312974&lt;/record-keys&gt;
+&lt;/resource-info&gt;
+&lt;/lock&gt;
+"  /><!--followings are used for carrier help guide-->
+<input type="hidden" name="bo.comlog_help_guide" value="Y"  /><input type="hidden" name="bo.urgency" value="Urgent"  /><input type="hidden" name="mcei.db.USER_PROFILE.LOGIN_ID" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="bo.keyinfo_message" value=""  /><!--followings are used for pop-up cross sell dash board screen-->
+<input type="hidden" name="bo.allianceId" value=""  /><input type="hidden" name="bo.email" value="anonymous891928292535158321@ehealth.com"  /><input type="hidden" name="bo.applicantName" value=""  /><input type="hidden" name="bo.isSalesSupport" value=""  /><input type="hidden" name="bo.isCustomerService" value=""  /><input type="hidden" name="bo.isCustomerRetention" value=""  /><input type="hidden" name="bo.isReviewerCS" value=""  /><input type="hidden" name="bo.isReviewer" value=""  /><input type="hidden" name="bo.fromScreen" value="searchResult"  /><input type="hidden" name="bo.cisco.allianceId" value=""  /><input type="hidden" name="bo.cisco.callType" value=""  /><input type="hidden" name="bo.cisco.inboundNumber" value=""  /><input type="hidden" name="bo.cisco.callId" value=""  /><input type="hidden" name="mcei.db.ADDRESS.HOME.ZIP_CODE" value="10960"  /><input type="hidden" name="mcei.db.ADDRESS.HOME.STATE" value="NY"  /><input type="hidden" name="mcei.db.ADDRESS.HOME.COUNTY" value="ROCKLAND"  /><input type="hidden" name="bo.isMedicareProductLine" value="Y"  /></form><div id="appStatus" style="position:absolute; visibility:hidden; backgroundColor:yellow; border:solid black 1px;"></div>
+<!-- standard end file boilerplate -->
+<hr/>
+
+<table border="0">
+      <tr>
+         <td>
+            <font size="-2" face="Arial,Helvetica">
+            Copyright &copy; 2018<a href='https://www.qa.ehealthinsurance.com'>eHealthInsurance Services, Inc.</a>   
+            </font>
+         </td>
+      </tr>
+   </table>
+<script type="text/javascript">
+    if (typeof jQuery == 'undefined') {document.write("<script type=\"text/javascript\" src=\"/ehibo/scripts/jquery-1.9.0.min.js\"><\/script><script type=\"text/javascript\" src=\"/ehibo/scripts/jquery-migrate-1.1.1.js\"><\/script>");}
+</script>
+<script src="/calendar-static/js/Plugins/Common.js" type="text/javascript"></script>
+</body>
+</html>
